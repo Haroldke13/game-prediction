@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="post">
+    <input type="text" name="team_name" placeholder="Enter Team Name" required>
+    <button type="submit">Predict</button>
+</form>
+
+{% if prediction %}
+    <h2>Prediction: {{ prediction }}</h2>
+{% endif %}
+{% endblock %}
