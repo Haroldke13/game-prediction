@@ -59,7 +59,7 @@ pip install -r requirements.txt      # note: pulls torch; the DeepSeek-R1 downlo
 
 ## Status
 
-**Abandoned prototype.** Last commit February 2025. No `.gitignore`.
+**Abandoned prototype.** Last commit February 2025.
 
 ## Licence
 
